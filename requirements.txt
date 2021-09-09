@@ -1,0 +1,7 @@
+tqdm==4.62.2
+torch==1.9.0
+numpy==1.20.3
+streamlit==0.88.0
+beautifulsoup4==4.9.3
+gdown==3.13.0
+transformers==4.10.0

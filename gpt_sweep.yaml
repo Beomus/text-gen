@@ -1,0 +1,26 @@
+method: bayes
+metric:
+  goal: minimize
+  name: loss
+parameters:
+  batch_size:
+    distribution: int_uniform
+    max: 4
+    min: 1
+  epochs:
+    distribution: int_uniform
+    max: 8
+    min: 2
+  learning_rate:
+    distribution: uniform
+    max: 0.0005
+    min: 0.00005
+  max_length:
+    distribution: int_uniform
+    max: 150
+    min: 50
+  data:
+    distribution: categorical
+    values:
+    - lotr
+program: gpt_train.py
