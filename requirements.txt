@@ -5,3 +5,4 @@ streamlit==0.88.0
 beautifulsoup4==4.9.3
 gdown==3.13.0
 transformers==4.10.0
+mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
