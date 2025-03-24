@@ -1,9 +1,9 @@
 tqdm==4.62.2
 torch==1.13.1
 numpy==1.22.2
-transformers==4.23.0
+transformers==4.48.0
 streamlit==1.11.1
 beautifulsoup4==4.9.3
 gdown==3.13.0
-transformers==4.23.0
+transformers==4.48.0
 mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
